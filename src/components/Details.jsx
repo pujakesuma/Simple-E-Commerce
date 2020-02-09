@@ -28,10 +28,10 @@ export class Details extends Component {
               {/* end title */}
               {/* product info */}
               <div className="row">
-                <div className="col-10 mx-auto col-md-6 my-3">
+                <div className="col-10 mx-auto col-md-4 my-3">
                   <img src={img} className="img-fluid" alt="product" />
                 </div>
-                <div className="col-10 mx-auto col-md-6 my-3 text-capitalize">
+                <div className="col-10 mx-auto col-md-5 my-3 text-capitalize">
                   <h2>model : {title}</h2>
                   <h4
                     className="text-title text-uppercase
