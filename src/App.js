@@ -3,7 +3,7 @@ import { Switch, Route } from "react-router-dom";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar.jsx";
-import Cart from "./components/Cart.jsx";
+import Cart from "./components/Cart/Cart.jsx";
 import Default from "./components/Default.jsx";
 import Details from "./components/Details.jsx";
 import ProductList from "./components/ProductList.jsx";
