@@ -99,7 +99,7 @@ const ProductWrapper = styled.div`
     bottom: 0;
     right: 0;
     padding: 0.2rem 0.4rem;
-    background: var(--lightBlue);
+    background: var(--mainBlue);
     border: none;
     color: var(--mainWhite);
     font-size: 1.4rem;

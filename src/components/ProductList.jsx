@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import Product from "./Product.jsx";
-import Title from "./Title.jsx";
 import { ProductConsumer } from "../context";
+import Product from "./Product.jsx";
 
 export class ProductList extends Component {
   render() {

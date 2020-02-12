@@ -21,7 +21,7 @@ export class Details extends Component {
             <React.Fragment>
               <div className="container py-5">
                 {/* title */}
-                <div className="col-10 mx-auto text-center text-slanted text-blue my-5">
+                <div className="col-10 mx-auto text-center text-slanted text-blue my-2">
                   <h1>{title}</h1>
                 </div>
               </div>
@@ -51,7 +51,7 @@ export class Details extends Component {
                   <p className="text-muted lead">{info}</p>
                   <div>
                     <Link to="/">
-                      <ButtonContainer>Back to Products</ButtonContainer>
+                      <ButtonContainer cart>Back to Products</ButtonContainer>
                     </Link>
                     <ButtonContainer
                       cart

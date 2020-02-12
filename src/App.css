@@ -1,8 +1,7 @@
 :root {
-  --mainBlue: #819c4b;
-  --lightBlue: #323b20;
-  --mainWhite: #f3f3f3;
-  --mainDark: #232528;
+  --mainBlue: #8b5671;
+  --mainWhite: #f8f3e3;
+  --mainDark: #242121;
   --mainPlus: #f3ac13;
   --mainYellow: #ffa400;
 }
@@ -24,14 +23,14 @@ body {
 }
 
 .text-bright {
-  color: var(--lightBlue);
+  color: var(--mainWhite);
 }
 
 .btn-black {
   background: transparent;
   text-transform: capitalize;
   font-size: 0.8rem !important;
-  color: var(--mainDark);
+  color: var(--mainWhite);
   border-radius: 0 !important;
   border: 0.1rem solid var(--mainDark) !important;
 }
